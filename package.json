@@ -8,12 +8,20 @@
     "@theme-ui/presets": "^0.3.0",
     "body-parser": "^1.19.0",
     "dotenv-load": "^2.0.0",
-    "next": "^9.5.0",
+    "next": "^9.5.2",
     "next-connect": "^0.8.1",
     "next-env": "^1.1.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "theme-ui": "^0.3.1"
   },
-  "devDependencies": {}
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.48",
+    "typescript": "^4.0.2"
+  }
 }
